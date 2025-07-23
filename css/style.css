@@ -529,13 +529,17 @@ footer .col ul li {
         border-bottom: var(--main-color) 2px solid;
     }
 
+    .search {
+        justify-content: space-between;
+    }
+
     .search-hebergements {
         padding-left: 20px;
         padding-right: 20px;
     }
 
     .search input[type="text"] {
-        width: 236px;
+        width: 85%;
         margin-right: -20px;
         padding-left: 20px;
         padding-right: 40px;
